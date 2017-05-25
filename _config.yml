@@ -31,8 +31,8 @@ github_username:  spacetimedistortion
 # Build settings
 markdown: kramdown
 
-paginate: 5
-paginate_path: "/:num/"
+# paginate: 5
+# paginate_path: "/:num/"
 
 collections:
   case-studies: 
