@@ -16,3 +16,4 @@ sidebar: This project was part of a website redesign for AES. To create the outl
 ![AES UX & Content Outline - Page 3](/img/AES/3.jpg)
 ![AES UX & Content Outline - Page 4](/img/AES/4.jpg)
 ![AES UX & Content Outline - Page 5](/img/AES/5.jpg)
+![AES UX & Content Outline - Page 6](/img/AES/6.jpg)
