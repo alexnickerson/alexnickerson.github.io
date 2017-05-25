@@ -40,7 +40,7 @@ collections:
     permalink: /:name/
     
 gems:
-  - Jekyll-paginate
+#  - Jekyll-paginate
 
 exclude:
   - Gemfile
