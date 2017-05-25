@@ -1,0 +1,25 @@
+<div class="sidebar">
+  
+  <header>
+  <div class="logo">
+    <a class="page-link logo" href="{{ site.baseurl }}/">{{ site.logo }}</a>
+  </div>
+
+    <ul>
+      {% for project in site.case-studies %}
+      <li>
+          <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </header>
+
+    <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="post-description">{{ page.description }}</h5>
+  </header>
+
+  <p>{{ page.sidebar }}</p>
+
+</div>

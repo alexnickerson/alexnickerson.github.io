@@ -1,0 +1,107 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+// Our variables
+$base-font-family: 'Helvetica', 'Arial', sans-serif; //'Raleway', sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$grey-color-dark: #333;   /* footer */
+$grey-color-light: #ddd;  /* navigation bar border */
+
+
+$white: #F5F5F5;
+$fuchsia: #DC0095;
+$black: #424242;
+$ltblue: #1976d2;
+$green: #1DE9B6;
+$bright-white: #FFF;
+
+
+/* Set theme colors *************************/
+$theme-color:   $ltblue;//$red;
+$highlight-color: $fuchsia;
+$selection-color: $green;
+$text-color:     $black;
+$nav-color: rgba(66, 66, 66, 75);
+
+/************************************************************/
+
+$on-small:         420px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+/************************************************************/
+/************************************************************/
+
+/**
+ * Basic styling
+ */
+body {
+font-family: $base-font-family;
+font-size: $base-font-size;
+line-height: $base-line-height;
+font-weight: 100;
+color: $black;//$text-color;
+background-color: $background-color;
+-webkit-text-size-adjust: 100%;
+letter-spacing: 0.03rem;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+display: block;
+}
+
+figcaption {
+font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+margin-left: $horizontal-spacing-unit;
+}
+
+ul {
+list-style-type: none;
+& li:before {
+content: '//';
+position: absolute;
+margin-left: -1.33rem;
+font-size: 1.066rem;
+}
+@include media-query($on-small) {
+margin-left: 30px;
+    }
+}
+
+li {
+> ul,
+> ol {
+margin-bottom: 0;
+    }
+}
