@@ -3,11 +3,6 @@ body.body {
 //background: $fuchsia;
 }
 
-.content-wrapper {
-//background: $white;
-min-height: 99.5vh;
-}
-
 div.sidebar {
 position: fixed;
 width: calc(14vw + 9em);
@@ -21,6 +16,15 @@ padding: 0;
 	}
 }
 
+div.content-wrapper {
+min-height: 99.5vh;
+background-color: rgba(72, 133, 237, 0.75);
+padding-bottom: calc(6vw - 1em);
+& .sidebar {
+background-color: $white;
+	}
+}
+
 div.main {
 & img {
 height: calc(99vh - 2em);
@@ -28,7 +32,7 @@ height: calc(99vh - 2em);
 }
 
 div.content-main {
-margin-left: calc(16vw + 11em);
+margin-left: calc(17vw + 12em);//calc(16vw + 11em);
 padding-top:  4em;
 margin-top: -10px;
 margin-bottom: 2em;
@@ -39,7 +43,21 @@ margin: 0 auto;
 padding: 1em 0;
     } 
 & img {
+margin-top: .33em;
 max-width: 100%;
+//border: 2px solid $text-color;
+	}
+& p {
+// padding-top: .25em;
+// padding-bottom: .25em;
+//background-color: $white;
+	}
+& div.caption {
+font-family: serif;
+margin-top: .25em;
+margin-bottom: .25em;
+padding-top: .125em;
+background-color: $white;
 	}
 }
 
@@ -47,7 +65,9 @@ footer {
 border-top: 0;
 //position: absolute;
 //padding-top: calc(87vh + 3em);
-bottom: 0;
+//bottom: 0;
 width: 100%;
 text-align: center;
+//color: $white;
+line-height: 2;
 }

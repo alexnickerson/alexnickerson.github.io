@@ -13,6 +13,7 @@ $base-font-family: 'Helvetica', 'Arial', sans-serif; //'Raleway', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$caption-font-size: 1.25em;
 
 $spacing-unit:     30px;
 $horizontal-spacing-unit:       50px;
@@ -37,6 +38,8 @@ $ltblue: #1976d2;
 $green: #1DE9B6;
 $bright-white: #FFF;
 
+$background-color: #4885ed;
+
 
 /* Set theme colors *************************/
 $theme-color:   $ltblue;//$red;
@@ -44,6 +47,7 @@ $highlight-color: $fuchsia;
 $selection-color: $green;
 $text-color:     $black;
 $nav-color: rgba(66, 66, 66, 75);
+$caption_color: $grey-color-light;
 
 /************************************************************/
 
@@ -63,7 +67,7 @@ font-size: $base-font-size;
 line-height: $base-line-height;
 font-weight: 100;
 color: $black;//$text-color;
-background-color: $background-color;
+background-color: $white;
 -webkit-text-size-adjust: 100%;
 letter-spacing: 0.03rem;
 }

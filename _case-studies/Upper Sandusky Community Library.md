@@ -11,19 +11,19 @@ sidebar: This will be placeholder Jeremy has all the details. This project was p
 ---
 
 ![Upper Sandusky County Library Wireframe - Home](/img/USCL/0.jpg)
-^ Home Page Wireframe
+<div class="caption">^ Home Page Wireframe ^</div>
 
 ![Upper Sandusky County Library Wireframe - Catalog Search](/img/USCL/catalog_search.jpg)
-^ Catalog Search Wireframe
+<div class="caption">^ Catalog Search Wireframe ^</div>
 
 ![Upper Sandusky County Library Wireframe - Calendar](/img/USCL/calendar.jpg)
-^ Calendar Page Wireframe
+<div class="caption">^ Calendar Page Wireframe ^</div>
 
 ![Upper Sandusky County Library Wireframe - Ellison Room](/img/USCL/ellison.jpg)
-^ Ellison Room & Reservation Page Wireframe
+<div class="caption">^ Ellison Room & Reservation Page Wireframe ^</div>
 
 ![Upper Sandusky County Library Wireframe - Contact](/img/USCL/contact.jpg)
-^ Contact Page Wireframe
+<div class="caption">^ Contact Page Wireframe ^</div>
 
 ![Upper Sandusky County Library Sitemap](/img/USCL/site_map.jpg)
-^ Sitemap
+<div class="caption">^ Sitemap ^</div>

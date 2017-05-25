@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Sharp-Line"
+title: "Sharp-Line Industries"
 description: Logo Redesign
 img: 
 category: Design
