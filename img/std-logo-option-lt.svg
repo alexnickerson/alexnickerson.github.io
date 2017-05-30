@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="165px" viewBox="0 0 169 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>std-logo-option-lt-mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2-Copy-2" transform="translate(-71.000000, -55.000000)">
+            <g id="std-logo-option-lt-mark" transform="translate(71.000000, 55.000000)">
+                <rect id="background" fill="#EDEDED" x="9.874" y="9" width="134" height="134"></rect>
+                <rect id="square" fill="#FFD3FF" x="0.874" y="0" width="80" height="80"></rect>
+                <circle id="circle" fill="#50E3C2" cx="113.874" cy="110" r="55"></circle>
+                <g id="bolt" transform="translate(19.874000, 19.000000)" fill="#FFFFFF">
+                    <polygon points="0.786755695 0.738993816 113 19 77.1379277 79.1669804 112.921319 113.069272 0.742020865 93.9350663 37.9904775 38.0690915"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

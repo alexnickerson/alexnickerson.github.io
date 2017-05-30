@@ -28,7 +28,7 @@ padding-bottom: .25em;
 	}
 a.logo {
     margin-bottom: calc(2vw + 1em);
-    border: 1.5px solid black;
+    border: 1.5px solid $text-color;
 	}
 @include media-query($on-palm) {
 & header {

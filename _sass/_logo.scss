@@ -1,0 +1,96 @@
+// @include font-face("PitchTest-Light", /webfonts/PitchTest-Light);
+// @include font-face("PitchTest-Semibold", /webfonts/PitchTest-Semibold);
+
+@font-face {
+  font-family: 'PitchTest-Light';
+  src: url('/css/webfonts/PitchTest-Light.eot?#iefix') format('embedded-opentype'),  url('/css/webfonts/PitchTest-Light.otf')  format('opentype'),
+	     url('/css/webfonts/PitchTest-Light.woff') format('woff'), url('/css/webfonts/PitchTest-Light.ttf')  format('truetype'), url('/css/webfonts/PitchTest-Light.svg#PitchTest-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PitchTest-Semibold';
+  src: url('/css/webfonts/PitchTest-Semibold.eot?#iefix') format('embedded-opentype'),  url('/css/webfonts/PitchTest-Semibold.otf')  format('opentype'),
+	     url('/css/webfonts/PitchTest-Semibold.woff') format('woff'), url('/css/webfonts/PitchTest-Semibold.ttf')  format('truetype'), url('/css/webfonts/PitchTest-Semibold.svg#PitchTest-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+	display: none;
+}
+
+div.std-logo-option {
+
+	// padding: 1em;
+	// padding-bottom: 2em;
+	// text-align: center;
+	// display: block;
+	min-height: calc(10vw + 5em);
+
+	& img {
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		width: calc(3.75em + 5vw);
+		padding: calc(.25em + .5vw);
+		// display: inline-block;
+	}
+
+	& h1 {
+		display: none;
+		font-size: calc(.9em + .6vw);
+		font-family: 'PitchTest-Semibold', serif;
+		letter-spacing: .15rem;
+	}
+
+	& p {
+		// display: inline-block;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		font-size: calc(.9em + .6vw);
+		font-family: 'PitchTest-Light', serif;
+		letter-spacing: .15rem;
+		line-height: 1.45;
+		padding: 0 calc(.5em + .25vw);
+		padding-top: calc(.025em + .025vw);
+	}
+
+	& div {
+		float: left;
+		margin: 0;
+		padding: 0;
+		max-width: 50%;
+	}
+}
+
+@include media-query($on-palm) {
+
+	div.std-logo-option {
+
+		min-height: calc(10em + 15vw);
+		padding: 1em;
+		padding-bottom: 2em;
+		text-align: center;
+		display: block;
+
+		& img {
+			width: 10em;
+		}
+
+		& h1 {
+			display: block;
+		}
+
+		& p {
+			display: none;
+		}
+
+		& div {
+			margin: 0 auto;
+			float: none;
+		}
+	}    
+}
