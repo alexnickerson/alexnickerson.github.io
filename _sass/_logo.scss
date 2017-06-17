@@ -27,7 +27,7 @@ div.std-logo-option {
 	// padding-bottom: 2em;
 	// text-align: center;
 	// display: block;
-	min-height: calc(10vw + 5em);
+	min-height: calc(6vw + 1em);
 
 	& img {
 		margin: 0;
@@ -43,6 +43,7 @@ div.std-logo-option {
 		font-size: calc(.9em + .6vw);
 		font-family: 'PitchTest-Semibold', serif;
 		letter-spacing: .15rem;
+		color: $text-color;
 	}
 
 	& p {
@@ -51,18 +52,19 @@ div.std-logo-option {
 		padding: 0;
 		text-align: left;
 		font-size: calc(.9em + .6vw);
-		font-family: 'PitchTest-Light', serif;
+		font-family: 'PitchTest-Semibold', serif;
 		letter-spacing: .15rem;
 		line-height: 1.45;
-		padding: 0 calc(.5em + .25vw);
+		padding: 0 calc(.25em + .25vw);
 		padding-top: calc(.025em + .025vw);
+		color: $text-color;
 	}
 
 	& div {
 		float: left;
 		margin: 0;
 		padding: 0;
-		max-width: 50%;
+		// max-width: 65%;
 	}
 }
 
@@ -70,9 +72,9 @@ div.std-logo-option {
 
 	div.std-logo-option {
 
-		min-height: calc(10em + 15vw);
+		min-height: calc(1em + 1vw);
 		padding: 1em;
-		padding-bottom: 2em;
+		padding-top: 2em;
 		text-align: center;
 		display: block;
 

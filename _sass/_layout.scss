@@ -8,6 +8,10 @@ position: fixed;
 width: calc(14vw + 9em);
 padding: calc(1vw + 1em);
 padding-top: calc(.5vw + 1em);
+& div {
+overflow-y: scroll;
+max-height: 150vh;
+}
 @include media-query ($on-palm) {
 position: relative;
 width: 100%;
@@ -18,7 +22,7 @@ padding: 0;
 
 div.content-wrapper {
 min-height: 99.5vh;
-background-color: rgba(72, 133, 237, 0.75);
+// background-color: rgba(72, 133, 237, 0.75);
 padding-bottom: calc(6vw - 1em);
 & .sidebar {
 background-color: $white;
@@ -29,6 +33,28 @@ div.main {
 text-align: right;
 & img {
 height: calc(99vh - 2em);
+	}
+}
+
+div.main-wrapper {
+& .sidebar {
+background-color: #f5f5f5;
+min-height: calc(98vh + 1em);
+@include media-query($on-palm) {
+min-height: calc(1vh + 1em);
+		}
+	}
+}
+
+div.post-header {
+@include media-query($on-palm) {
+& h1 {
+padding: 0 calc(.25vw + .25em);
+		}
+& h5 {
+padding: 0 calc(1.25vw + .5em);
+padding-bottom: calc(.25vw + 1em);
+		}
 	}
 }
 

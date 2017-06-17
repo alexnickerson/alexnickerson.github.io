@@ -12,11 +12,11 @@
 @import 
 	"base",
 	"layout",
-	"mixins",
-	"typography"
+	"typography",
+	"logo"
 ;
 // import logo partial & comment out the following for updated logo
-.std-logo-option {display: none;}
+// .std-logo-option {display: none;}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // @import
