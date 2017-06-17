@@ -31,8 +31,13 @@ background-color: $white;
 
 div.main {
 text-align: right;
+margin-left: calc(17vw + 12em);
 & img {
-height: calc(99vh - 2em);
+width: 100%;
+	}
+@include media-query($on-palm) {
+margin-left: 0;
+width: 100vw;
 	}
 }
 
@@ -53,7 +58,6 @@ padding: 0 calc(.25vw + .25em);
 		}
 & h5 {
 padding: 0 calc(1.25vw + .5em);
-padding-bottom: calc(.25vw + 1em);
 		}
 	}
 }

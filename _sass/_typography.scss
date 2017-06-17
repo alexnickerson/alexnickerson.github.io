@@ -24,7 +24,7 @@ padding-top: .5em;
 line-height: 1.125;
 	}
 h5 {
-padding-bottom: .25em;
+padding-bottom: calc(.25vw + 1em);
 	}
 a.logo {
     margin-bottom: calc(2vw + 1em);
@@ -36,9 +36,6 @@ padding: 0 calc(1.25vw + .5em);
 	}
 & p {
 padding: 0 calc(1.25vw + .5em);
-		}
-& h5 {
-padding-bottom: calc(.25vw + 1em);
 		}
 	}
 }
