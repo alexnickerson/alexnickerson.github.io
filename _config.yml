@@ -35,7 +35,7 @@ markdown: kramdown
 # paginate_path: "/:num/"
 
 collections:
-  case-studies: 
+  portfolio: 
     output: true
     permalink: /:name/
     

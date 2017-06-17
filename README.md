@@ -1,1 +1,3 @@
-# sturdy-engine
+# Alex Nickerson
+## Writer, Editor, Storyteller
+---

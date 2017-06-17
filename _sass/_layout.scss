@@ -5,12 +5,13 @@ body.body {
 
 div.sidebar {
 position: fixed;
-width: calc(14vw + 9em);
+width: calc(18vw + 9em);
 padding: calc(1vw + 1em);
 padding-top: calc(.5vw + 1em);
+max-height: 100vh;
 & div {
 overflow-y: scroll;
-max-height: 150vh;
+max-height: calc(100vh - 13em);
 }
 @include media-query ($on-palm) {
 position: relative;
