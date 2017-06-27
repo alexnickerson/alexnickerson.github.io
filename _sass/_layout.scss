@@ -7,17 +7,23 @@ div.sidebar {
 position: fixed;
 width: calc(18vw + 9em);
 padding: calc(1vw + 1em);
-padding-top: calc(.5vw + 1em);
+padding-top: 0; //calc(.5vw + 1em);
 max-height: 100vh;
-& div {
+& p {
 overflow-y: scroll;
-max-height: calc(100vh - 13em);
+max-height: calc(100vh - 25em);
 }
 @include media-query ($on-palm) {
 position: relative;
 width: 100%;
 margin: 0 auto;
 padding: 0;
+	}
+}
+
+div.links {
+& a {
+padding-right: calc(1vw + 1em);
 	}
 }
 
@@ -31,8 +37,9 @@ background-color: $white;
 }
 
 div.main {
-text-align: right;
-margin-left: calc(17vw + 12em);
+// text-align: right;
+margin-left: calc(18vw + 13em);
+padding-right: calc(1vw + 1em);
 & img {
 width: 100%;
 	}
@@ -64,7 +71,7 @@ padding: 0 calc(1.25vw + .5em);
 }
 
 div.content-main {
-margin-left: calc(17vw + 12em);//calc(16vw + 11em);
+margin-left: calc(18vw + 13em);//calc(16vw + 11em);
 padding-top:  4em;
 margin-top: -10px;
 margin-bottom: 2em;

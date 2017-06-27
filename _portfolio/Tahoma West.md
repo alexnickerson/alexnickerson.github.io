@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Tahoma West Literary Arts Journal"
+title: "Tahoma West Literary and Visual Arts Journal"
 description: Website Content & Experience Outline
 img: 
 category: 
@@ -14,4 +14,4 @@ As Editor in Chief for Tahoma West 2016-2017 Alex oversaw a team of editors, hel
 
 <img src="/img/Tahoma West 2017 Cover.jpg" alt="Tahoma West Cover 2017">
 
-Download a copy — [Tahoma West Literary Arts Journal 2017 vol. 21]('')
+Download a copy — [Tahoma West Literary and Visual Arts Journal 2017 vol. 21]('')

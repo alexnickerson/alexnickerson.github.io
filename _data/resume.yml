@@ -1,0 +1,53 @@
+---
+- name: Alexandria Nickerson
+  email:  adn25@uw.edu
+  phone:  781-720-8020
+
+  employment:
+  - employer:  Tahoma West
+    title: Editor-in-Chief
+    date:  2016-2017
+    description: Promote, select, and edit poetry, creative nonfiction, fiction, and visual arts submissions   
+                 Plan literary and visual arts events   
+                 Meet deadlines and guide genre editors   
+                 Collaborate with local community partners including authors and publishers   
+
+  - employer:  Scoozi
+    title:   Waitress/Bartender
+    date:  2008-2013
+    description:  Manage waitresses and hostesses   
+                  Provide excellent customer service and partner with local communities for events   
+                  Take inventory, stock, and close out cash register   
+
+  education:  
+  - school:  University of Washington Tacoma
+    field: Writing Studies
+    degree:  BA
+    year:  '2017'
+
+  skills:
+  - skill: Proficient with Microsoft Office, Micros, Jostens, InDesign, and Adobe software
+    icon:  
+    
+  - skill: Technical communication
+    icon:  
+
+  - skill: Photography and Journalism
+    icon:  
+
+  highlight:  Strong ability to translate technical ideas into easily-understood concepts
+
+  leadership: 
+  - program:  AWP Conference Participant
+    date:  '2017'   
+
+  - program:  Big Brothers Big Sisters
+    date:  2016-Present
+
+  - program:  North Shore Arc. Personal Care Attendant
+    date:  2011-2014
+
+  - program:  Writing Tutor
+    date:  2010-Present
+
+  references: Available upon request

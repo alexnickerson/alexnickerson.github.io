@@ -23,11 +23,8 @@
 
 div.std-logo-option {
 
-	// padding: 1em;
-	// padding-bottom: 2em;
-	// text-align: center;
-	// display: block;
-	min-height: calc(6vw + 1em);
+	// min-height: calc(6vw + 1em);
+	line-height: 1.5;
 
 	& img {
 		margin: 0;
@@ -35,11 +32,10 @@ div.std-logo-option {
 		max-width: 100%;
 		width: calc(3.75em + 5vw);
 		padding: calc(.25em + .5vw);
-		// display: inline-block;
 	}
 
 	& h1 {
-		display: none;
+		//display: none;
 		font-size: calc(.9em + .6vw);
 		font-family: 'PitchTest-Semibold', serif;
 		letter-spacing: .15rem;
@@ -47,16 +43,16 @@ div.std-logo-option {
 	}
 
 	& p {
-		// display: inline-block;
+		display: none;
 		margin: 0;
 		padding: 0;
 		text-align: left;
 		font-size: calc(.9em + .6vw);
 		font-family: 'PitchTest-Semibold', serif;
 		letter-spacing: .15rem;
-		line-height: 1.45;
+		line-height: 2.75;//1.45;
 		padding: 0 calc(.25em + .25vw);
-		padding-top: calc(.025em + .025vw);
+		// padding-top: calc(.025em + .025vw);
 		color: $text-color;
 	}
 
@@ -64,7 +60,6 @@ div.std-logo-option {
 		float: left;
 		margin: 0;
 		padding: 0;
-		// max-width: 65%;
 	}
 }
 

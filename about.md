@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Alexandria Nickerson is a writer, editor and storyteller. She can be reached via email at adn25@uw.edu
 
 
