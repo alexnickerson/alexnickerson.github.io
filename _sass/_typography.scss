@@ -46,6 +46,19 @@ text-align: left;
 	}
 }
 
+div.links {
+& a {
+color: $text-color;
+transition: color .3s ease;
+&:hover {
+color: $theme-color;
+		}
+	}
+@include media-query($on-palm) {
+text-align: center;
+	}
+}
+
 ul {
 & li {
 & a {

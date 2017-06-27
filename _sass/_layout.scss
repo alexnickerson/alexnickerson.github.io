@@ -25,6 +25,12 @@ div.links {
 & a {
 padding-right: calc(1vw + 1em);
 	}
+@include media-query($on-palm) {
+padding-bottom: calc(1vw + 1em);
+& a {
+padding-right: 0;
+		}
+	}
 }
 
 div.content-wrapper {
