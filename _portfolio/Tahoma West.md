@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Tahoma West Literary and Visual Arts Journal"
-description: Website Content & Experience Outline
+description: Editor in Chief, 2016-2017
 img: 
 category: 
 date: 2017-05-06 01:40:11 -0700
