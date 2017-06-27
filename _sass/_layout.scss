@@ -90,6 +90,7 @@ padding: 1em 0;
 & img {
 margin-top: .33em;
 max-width: 100%;
+margin-bottom: calc(.5vw + .5em);
 position:relative;
 -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -127,7 +128,14 @@ background-color: $white;
 // padding-top: .25em;
 // padding-bottom: .25em;
 //background-color: $white;
+& a {
+color: $theme-color;
+transition: border-bottom .3s ease;
+&:hover {
+border-bottom: .25px solid $theme-color;	
+		}
 	}
+}
 & div.caption {
 //font-family: serif;
 //margin-top: .25em;

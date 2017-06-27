@@ -43,6 +43,14 @@ padding: 0 calc(1.25vw + .5em);
 div.content-main {
 & p {
 text-align: left; 
+& a {
+color: $theme-color;
+transition: border-bottom .3s ease;
+&:hover {
+border-bottom: .25px solid $theme-color;	
+				}
+			}
+		}
 	}
 }
 
