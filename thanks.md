@@ -4,4 +4,4 @@ permalink: /thanks/
 ---
 
 # Thanks!
-### Your submission has been received
+Your submission has been received

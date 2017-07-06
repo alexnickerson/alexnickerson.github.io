@@ -1,0 +1,11 @@
+---
+layout: project
+title: "Beasts of the Southern Wild through an Ecocritical Lens"
+description: Essay
+img: 
+category: 
+date: 2017-07-05
+client: 
+published: yes
+sidebar: The independent film Beast of the Southern Wild analyzed through eco-criticism or the study of literature and the environment. HushPuppy declares at the beginning and end of the film, “when I die, the scientists of the future, they're gonna find it all. They gonna know, once there was a Hushpuppy, and she live with her daddy in the Bathtub.” The voices of the side effects of climate change will be heard, despite if the people who feel unaffected develop the consciousness to do more about environmental degradation. The climate refugees of Louisiana voice their experience after Hurricane Katrina and their fight for environmental justice. 
+---

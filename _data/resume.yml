@@ -1,9 +1,14 @@
 ---
 - name: Alexandria Nickerson
-  email:  adn25@uw.edu
-  phone:  781-720-8020
+  email:  
+  phone:  
 
   employment:
+  - employer:  One Person's Trash
+    title:  Poetry Editor
+    date:  2017-Present
+    description: 
+
   - employer:  Tahoma West
     title: Editor-in-Chief
     date:  2016-2017
@@ -13,7 +18,7 @@
                  Collaborate with local community partners including authors and publishers   
 
   - employer:  Scoozi
-    title:   Waitress/Bartender
+    title:   Waitress & Bartender
     date:  2008-2013
     description:  Manage waitresses and hostesses   
                   Provide excellent customer service and partner with local communities for events   

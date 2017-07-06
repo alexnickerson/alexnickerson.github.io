@@ -16,7 +16,7 @@ permalink: /resume/
 # employment
 
 {% for employer in resume.employment %}
-- **{{ employer.employer }}** <!-- {{ employer.title }} --> *({{ employer.date }})*  
+- **{{ employer.employer }}** {{ employer.title }} *({{ employer.date }})*  
 {{ employer.description }}
 {% endfor %}
 

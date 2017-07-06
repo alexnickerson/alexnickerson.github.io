@@ -41,6 +41,11 @@ padding: 0 calc(1.25vw + .5em);
 }
 
 div.content-main {
+& h1 {
+padding-bottom: .5em;
+padding-top: .5em;
+line-height: 1.125;
+	}
 & p {
 text-align: left; 
 & a {
