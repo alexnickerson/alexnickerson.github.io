@@ -74,10 +74,10 @@ text-align: center;
 
 ul {
 & li {
+	}
 & a {
 color: $text-color;
 transition: color .3s ease;
-        }
 &:hover {
 color: $theme-color;
 		}

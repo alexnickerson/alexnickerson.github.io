@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Beasts of the Southern Wild through an Ecocritical Lens"
+title: Beasts of the Southern Wild through an Ecocritical Lens
 description: Essay
 img: 
 category: 

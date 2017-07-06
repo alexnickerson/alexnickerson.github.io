@@ -9,6 +9,12 @@
 
         {% include sidebar.html %}
 
+    	{% if page.img %}
+        <div class="hero">
+        	<img class="" src="{{ page.img }}" alt="{{ page.alt }}">
+        </div>
+    	{% endif %}
+
         <div class="content-main">
 
             <div class="post-header">

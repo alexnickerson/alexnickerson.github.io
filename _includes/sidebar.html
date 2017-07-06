@@ -19,14 +19,16 @@
 
   </header>
 
-  <p>Portfolio:</p>
-  <ul>
-    {% for project in site.portfolio %}
-    <li>
-        <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="portfolio">
+    <p>Portfolio:</p>
+    <ul>
+      {% for project in site.portfolio %}
+      <li>
+          <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
 <!--   <div class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>

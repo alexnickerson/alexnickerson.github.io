@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Louise Erdrich’s The Porcupine Year as a Multicultural Teaching Tool"
+title: Louise Erdrich’s The Porcupine Year as a Multicultural Teaching Tool
 description: Essay
 img: 
 category: 

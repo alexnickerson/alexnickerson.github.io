@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Ouroboros"
+title: <em>Ouroboros</em>
 description: Poetry Book
 img: 
 category: 

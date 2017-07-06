@@ -2,7 +2,8 @@
 layout: project
 title: "Pressure Gradient"
 description: Poetry Book
-img: 
+img: /img/Pressure Gradient.jpg
+alt: Pressure Gradient Cover
 category: 
 date: 2017-07-05
 client: 

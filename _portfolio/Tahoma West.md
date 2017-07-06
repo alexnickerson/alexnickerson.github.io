@@ -2,7 +2,8 @@
 layout: project
 title: "Tahoma West Literary and Visual Arts Journal"
 description: Editor in Chief, 2016-2017
-img: 
+img: /img/Tahoma West 2017 Cover.jpg
+alt: Tahoma West Cover 2017
 category: 
 date: 2017-05-06 01:40:11 -0700
 client: 
@@ -12,7 +13,7 @@ sidebar: Tahoma West (TW) is a student published literary arts magazine that beg
 
 As Editor in Chief for Tahoma West 2016-2017 Alex oversaw a team of editors, held events, contests and campaigns to generate content, directed layout design and publication
 
-<img src="/img/Tahoma West 2017 Cover.jpg" alt="Tahoma West Cover 2017">
+<!-- <img src="/img/Tahoma West 2017 Cover.jpg" alt="Tahoma West Cover 2017"> -->
 
 ### Check Out Tahoma West!
 

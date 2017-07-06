@@ -21,6 +21,16 @@ padding: 0;
 	}
 }
 
+div.hero {
+margin-left: calc(18vw + 13em);
+& img {
+width: 100%;
+	}
+@include media-query ($on-palm) {
+margin: 0;
+	}
+}
+
 div.links {
 & a {
 padding-right: calc(1vw + 1em);
@@ -143,6 +153,10 @@ margin-bottom: .5em;
 //padding-top: .125em;
 background-color: $white;
 	}
+}
+
+div.portfolio {
+padding: calc(1vw + 1em);
 }
 
 div.fourohfour {
