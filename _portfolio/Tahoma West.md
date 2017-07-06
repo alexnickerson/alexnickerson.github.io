@@ -16,6 +16,8 @@ As Editor in Chief for Tahoma West 2016-2017 Alex oversaw a team of editors, hel
 
 ### Check Out Tahoma West!
 
-Visit [Tahoma West's Website](http://tahomawest.org) and add [Tahoma West on Facebook](https://www.facebook.com/tahoma.west.1/)
+Add [Tahoma West on Facebook](https://www.facebook.com/tahoma.west.1/)
 
-Download a copy of [Tahoma West Literary and Visual Arts Journal 2017 vol. 21]('')
+Download a copy of [Tahoma West Literary and Visual Arts Journal 2017 vol. 21][1]
+
+[1]:{{ site.url }}/download/Tahoma_West-2017v21.pdf

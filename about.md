@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Alexandria Nickerson is a writer, editor and storyteller. She can be reached via email at adn25@uw.edu
+Alexandria Nickerson is a writer, editor and storyteller.
+
+Want to get in touch? [Contact Alex](/contact)
 
 

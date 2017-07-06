@@ -50,7 +50,7 @@ padding-right: calc(1vw + 1em);
 width: 100%;
 	}
 @include media-query($on-palm) {
-margin-left: 0;
+margin-left: calc(1.25vw + .5em);
 width: 100vw;
 	}
 }
