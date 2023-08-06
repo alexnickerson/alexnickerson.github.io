@@ -7,7 +7,40 @@
 
     <div class="content-wrapper">
 
-        {% include sidebar.html %}
+        <div class="sidebar">
+  
+          <header>
+          <div class="logo">
+            <a class="page-link logo" href="{{ site.baseurl }}/">{{ site.logo }}</a>
+          </div>
+
+          {% include logo.html %}
+
+          {% if site.pages %}
+            <div class="links">
+            {% for page in site.pages %}
+              {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              {% endif %}
+            {% endfor %}
+            <a class="page-link" href="{{ site.medium }}">Medium</a>
+            </div>
+          {% endif %}
+
+            
+
+          </header>
+
+          <div class="portfolio">
+            <p>Portfolio:</p>
+            <ul>
+              {% for project in site.portfolio %}
+              <li>
+                  <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
 
     	{% if page.img %}
         <div class="hero">
@@ -27,7 +60,7 @@
         
         </div>
 
-<!--       {% include footer.html %} -->
+    </div>
 
     </div>
 

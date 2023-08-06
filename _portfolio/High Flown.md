@@ -6,6 +6,6 @@ img:
 category: 
 date: 2017-07-05
 client: 
-published: yes
+published: false
 sidebar: A short story about a brother who makes a hard decision to deal with his sociopathic brother for the sake of their sick mother
 ---

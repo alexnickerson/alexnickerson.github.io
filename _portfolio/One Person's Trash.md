@@ -14,7 +14,7 @@ As Poetry Editor for One Person's Trash Alex oversees all poetry submissions, co
 
 <img src="" alt="">
 
-### Check Out One Person's Trash!
+## Check Out One Person's Trash!
 
 [onepersonstrash.org](https://www.onepersonstrash.org)
 

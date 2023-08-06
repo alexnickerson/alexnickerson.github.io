@@ -13,9 +13,9 @@ sidebar: Tahoma West (TW) is a student published literary arts magazine that beg
 
 As Editor in Chief for Tahoma West 2016-2017 Alex oversaw a team of editors, held events, contests and campaigns to generate content, directed layout design and publication
 
-<!-- <img src="/img/Tahoma West 2017 Cover.jpg" alt="Tahoma West Cover 2017"> -->
+<img src="" alt="">
 
-### Check Out Tahoma West!
+## Check Out Tahoma West
 
 Add [Tahoma West on Facebook](https://www.facebook.com/tahoma.west.1/)
 

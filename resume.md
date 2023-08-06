@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume/
+published: false
 ---
 
 {% for resume in site.data.resume %}
