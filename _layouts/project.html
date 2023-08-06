@@ -10,9 +10,9 @@
         <div class="sidebar">
   
           <header>
-          <div class="logo">
+          <!-- <div class="logo">
             <a class="page-link logo" href="{{ site.baseurl }}/">{{ site.logo }}</a>
-          </div>
+          </div> -->
 
           {% include logo.html %}
 
@@ -26,9 +26,6 @@
             <a class="page-link" href="{{ site.medium }}">Medium</a>
             </div>
           {% endif %}
-
-            
-
           </header>
 
           <div class="portfolio">
@@ -42,25 +39,25 @@
             </ul>
           </div>
 
-    	{% if page.img %}
-        <div class="hero">
-        	<img class="" src="{{ page.img }}" alt="{{ page.alt }}">
-        </div>
-    	{% endif %}
+      	{% if page.img %}
+          <div class="hero">
+          	<img class="" src="{{ page.img }}" alt="{{ page.alt }}">
+          </div>
+      	{% endif %}
 
-        <div class="content-main">
+      </div>
 
-            <div class="post-header">
-			    <h1 class="post-title">{{ page.title }}</h1>
-			    <h5 class="post-description">{{ page.description }}</h5>
-			    <p>{{ page.sidebar }}</p>
-			</div>
+      <div class="content-main">
 
-          {{ content }}
-        
-        </div>
+              <div class="post-header">
+                  <h1 class="post-title">{{ page.title }}</h1>
+                  <h5 class="post-description">{{ page.description }}</h5>
+                  <p>{{ page.sidebar }}</p>
+              </div>
 
-    </div>
+            {{ content }}
+          
+          </div>
 
     </div>
 

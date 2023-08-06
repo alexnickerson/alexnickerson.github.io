@@ -1,4 +1,4 @@
-current directory: /Users/ev3rything/web/alexnickerson.github.io-master/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
 /Users/ev3rything/.rubies/ruby-3.1.3/bin/ruby -I /Users/ev3rything/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... yes
@@ -10,11 +10,11 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/ev3rything/web/alexnickerson.github.io-master/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230802-908-7fv5hp sitelibdir\=./.gem.20230802-908-7fv5hp clean
+current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d clean
 
-current directory: /Users/ev3rything/web/alexnickerson.github.io-master/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230802-908-7fv5hp sitelibdir\=./.gem.20230802-908-7fv5hp
+current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d
 compiling AbstractMemory.c
 compiling ArrayType.c
 compiling Buffer.c
@@ -40,6 +40,6 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
 
-current directory: /Users/ev3rything/web/alexnickerson.github.io-master/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230802-908-7fv5hp sitelibdir\=./.gem.20230802-908-7fv5hp install
-/usr/local/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230802-908-7fv5hp
+current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d install
+/usr/local/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230806-17263-l0wt5d
