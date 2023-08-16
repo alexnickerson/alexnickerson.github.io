@@ -95,7 +95,7 @@ padding-right: 2em;
 overflow: scroll;
 @include media-query ($on-palm) {
 margin: 0 auto;
-padding: 1em 0;
+width: 100%;
     } 
 & img {
 margin-top: .33em;
