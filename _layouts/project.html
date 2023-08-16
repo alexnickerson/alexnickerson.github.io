@@ -39,15 +39,15 @@
             </ul>
           </div>
 
-      	{% if page.img %}
-          <div class="hero">
-          	<img class="" src="{{ page.img }}" alt="{{ page.alt }}">
-          </div>
-      	{% endif %}
-
       </div>
 
       <div class="content-main">
+
+              {% if page.img %}
+              <div class="hero">
+                <img class="" src="{{ page.img }}" alt="{{ page.alt }}">
+              </div>
+              {% endif %}
 
               <div class="post-header">
                   <h1 class="post-title">{{ page.title }}</h1>
