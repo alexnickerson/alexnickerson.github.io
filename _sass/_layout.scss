@@ -22,7 +22,7 @@ padding: 0;
 }
 
 div.hero {
-margin-left: calc(18vw + 13em);
+//margin-left: calc(18vw + 13em);
 & img {
 width: 100%;
 	}
@@ -83,7 +83,10 @@ padding: 0 calc(.25vw + .25em);
 & h5 {
 padding: 0 calc(1.25vw + .5em);
 		}
-	}
+& p  {
+padding: 0 calc(1.25vw + .5em);
+	    }
+    }
 }
 
 div.content-main {
@@ -94,17 +97,18 @@ margin-bottom: 2em;
 padding-right: 2em;
 overflow: scroll;
 @include media-query ($on-palm) {
+padding: 0 calc(1.25vw + .5em);
 margin: 0 auto;
-width: 100%;
+//width: 100%;
     } 
 & img {
 margin-top: .33em;
 max-width: 100%;
 margin-bottom: calc(.5vw + .5em);
 position:relative;
--webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
--moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+//-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+//-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+//box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 &:before, &:after
 {
 content:"";

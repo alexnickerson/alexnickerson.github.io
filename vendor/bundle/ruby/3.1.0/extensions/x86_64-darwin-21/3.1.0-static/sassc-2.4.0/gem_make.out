@@ -3,10 +3,10 @@ current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bund
 creating Makefile
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-1e0zm2 sitelibdir\=./.gem.20230806-17263-1e0zm2 clean
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-2zc668 sitelibdir\=./.gem.20230816-3131-2zc668 clean
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-1e0zm2 sitelibdir\=./.gem.20230806-17263-1e0zm2
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-2zc668 sitelibdir\=./.gem.20230816-3131-2zc668
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-1e0zm2 sitelibdir\=./.gem.20230806-17263-1e0zm2 install
-/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20230806-17263-1e0zm2/sassc
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-2zc668 sitelibdir\=./.gem.20230816-3131-2zc668 install
+/usr/local/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20230816-3131-2zc668/sassc

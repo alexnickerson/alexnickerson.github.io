@@ -3,14 +3,14 @@ current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bund
 creating Makefile
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-t8gusa sitelibdir\=./.gem.20230806-17263-t8gusa clean
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-ukbgg2 sitelibdir\=./.gem.20230816-3131-ukbgg2 clean
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-t8gusa sitelibdir\=./.gem.20230806-17263-t8gusa
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-ukbgg2 sitelibdir\=./.gem.20230816-3131-ukbgg2
 compiling mapper.cpp
 compiling rubymain.cpp
 linking shared-object fastfilereaderext.bundle
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-t8gusa sitelibdir\=./.gem.20230806-17263-t8gusa install
-/usr/local/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20230806-17263-t8gusa
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-ukbgg2 sitelibdir\=./.gem.20230816-3131-ukbgg2 install
+/usr/local/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20230816-3131-ukbgg2

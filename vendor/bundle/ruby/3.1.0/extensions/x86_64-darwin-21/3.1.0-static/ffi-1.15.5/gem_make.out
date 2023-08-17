@@ -11,10 +11,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d clean
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-1cyq2b sitelibdir\=./.gem.20230816-3131-1cyq2b clean
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-1cyq2b sitelibdir\=./.gem.20230816-3131-1cyq2b
 compiling AbstractMemory.c
 compiling ArrayType.c
 compiling Buffer.c
@@ -41,5 +41,5 @@ compiling ffi.c
 linking shared-object ffi_c.bundle
 
 current directory: /Users/ev3rything/Desktop/alexnickerson.github.io/vendor/bundle/ruby/3.1.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230806-17263-l0wt5d sitelibdir\=./.gem.20230806-17263-l0wt5d install
-/usr/local/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230806-17263-l0wt5d
+make DESTDIR\= sitearchdir\=./.gem.20230816-3131-1cyq2b sitelibdir\=./.gem.20230816-3131-1cyq2b install
+/usr/local/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230816-3131-1cyq2b
